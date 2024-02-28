@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="Styles/style.css" type="text/css" media="all" />
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <title>Chat: Home</title>
+    <script>$(()=> {
+            $('.bar').click(()=> {
+                $('.nav').toggleClass('active');
+            });
+        });</script>
+</head>
+<body>
+    <nav class='navbar pl pr pb'>
+        <span class='bar' href='#' style="font-size: 1.6rem;padding-left:15px; margin-right: 10px;">&#9776;</span>
+        <div class="header">
+            <div class="logo"></div>
+            <div class="brand">
+                Chatting & Asynchronous
+            </div>
+        </div>
+        <span style="flex: 1 1 auto;"></span>
+        <ul class='nav'>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='chat.html'>Chat</a></li>
+            <li><a href='Asynchronous.html'>Async</a></li>
+        </ul>
+    </nav>
+    <div class='container mt4'>
+        <div class="alert" align='center'>
+            Welcome to our home page!
+        </div>
+    </div>
+</body>
+</html>
